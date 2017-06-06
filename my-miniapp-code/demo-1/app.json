@@ -1,29 +1,36 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/events/eventlist",
+    "pages/survey/survey",
+    "pages/wx-examples/form"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
   "tabBar": {
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "首页"
+        "text": "Home"
       },
       {
-        "pagePath": "pages/logs/logs",
-        "text": "日志"
+        "pagePath": "pages/events/eventlist",
+        "text": "Meeting"
+      },
+      {
+        "pagePath": "pages/survey/survey",
+        "text": "Example"
       }
-      ]
-    },
-    "networkTimeout": {
-      "request": 10000,
-      "downloadFile": 10000
-    },
-    "debug": true
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
 }

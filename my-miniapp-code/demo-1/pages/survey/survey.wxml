@@ -1,0 +1,31 @@
+<form bindsubmit="formSubmit" bindreset="formReset">
+  <view wx:for="{{questions}}">
+    <view wx:if="{{item.qtype === 'single'}}">
+      Q{{index+1}}.{{item.qcontent}} (单选)
+      <radio-group class="radio-group">
+        <label class="radio" wx:for="{{item.options}}" wx:for-item="opt">
+          <radio value="{{opt.oindex}}" checked="false" />{{opt.ocontent}}
+        </label>
+      </radio-group>
+    </view>
+
+    <view wx:if="{{item.qtype === 'multiple'}}">
+      Q{{index+1}}.{{item.qcontent}} (多选)
+      <checkbox-group>
+        <label class="checkbox" wx:for="{{item.options}}" wx:for-item="opt">
+          <checkbox value="{{opt.oindex}}" checked="false" />{{opt.ocontent}}
+        </label>
+      </checkbox-group>
+    </view>
+
+    <view wx:if="{{item.qtype === 'open'}}">
+      Q{{index+1}}.{{item.qcontent}} (开放式问题)
+      <input maxlength="200" placeholder="最大输入长度200" />
+    </view>
+
+  </view>
+  <view class="btn-area">
+    <button formType="submit">Submit</button>
+    <button formType="reset">Reset</button>
+  </view>
+</form>
