@@ -1,9 +1,19 @@
 /* survey.wxss */
+
 /** 修改默认的navigator点击态 **/
+
 .navigator-hover {
-    color:blue;
+  color: blue;
 }
+
 /** 自定义其他点击态样式类 **/
+
 .other-navigator-hover {
-    color:red;
+  color: red;
+}
+
+.qblock {
+  padding: 15rpx;
+  display: block;
+  margin: 30rpx;
 }

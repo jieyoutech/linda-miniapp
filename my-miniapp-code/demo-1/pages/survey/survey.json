@@ -1,1 +1,6 @@
-{}
+{
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#a0db8e",
+  "navigationBarTitleText": "Survey",
+  "navigationBarTextStyle": "black"
+}

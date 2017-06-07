@@ -16,14 +16,20 @@
     "list": [
       {
         "pagePath": "pages/index/index",
+        "iconPath": "images/home-icon.png",
+        "selectedIconPath": "images/home-icon-2.png",
         "text": "Home"
       },
       {
         "pagePath": "pages/events/eventlist",
-        "text": "Meeting"
+        "iconPath": "images/events-icon.png",
+        "selectedIconPath": "images/events-icon-2.png",
+        "text": "Events"
       },
       {
         "pagePath": "pages/survey/survey",
+        "iconPath": "images/example-icon.png",
+        "selectedIconPath": "images/example-icon-2.png",
         "text": "Example"
       }
     ]

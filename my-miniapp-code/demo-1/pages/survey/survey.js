@@ -11,13 +11,16 @@ Page({
       qtype: "single",
       options: [{
         oindex: "1",
-        ocontent: "question 1 option 1 xxx"
+        ocontent: "question 1 option 1 xxx",
+        checked: "false"
       }, {
         oindex: "2",
-        ocontent: "question 1 option 2 yyy"
+        ocontent: "question 1 option 2 yyy",
+        checked: "false"
       }, {
         oindex: "3",
-        ocontent: "question 1 option 3"
+        ocontent: "question 1 option 3",
+        checked: "false"
       }]
     }, {
       qindex: "q2",
