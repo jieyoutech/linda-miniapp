@@ -4,7 +4,9 @@
     "pages/logs/logs",
     "pages/events/eventlist",
     "pages/survey/survey",
-    "pages/wx-examples/form"
+    "pages/wx-examples/form",
+    "pages/survey/surveyResult",
+    "pages/interact/interact"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -21,7 +23,7 @@
         "text": "Home"
       },
       {
-        "pagePath": "pages/events/eventlist",
+        "pagePath": "pages/interact/interact",
         "iconPath": "images/events-icon.png",
         "selectedIconPath": "images/events-icon-2.png",
         "text": "Events"

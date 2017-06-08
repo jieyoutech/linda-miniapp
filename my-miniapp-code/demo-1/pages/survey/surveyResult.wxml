@@ -1,0 +1,6 @@
+<!--surveyResult.wxml-->
+<view>
+  <view>Thanks you for your answer!</view>
+  <view>Answer is :</view>
+  <view>{{result}}</view>
+</view>

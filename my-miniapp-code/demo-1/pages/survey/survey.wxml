@@ -5,7 +5,7 @@
       <radio-group name="{{item.qindex}}">
         <label wx:for="{{item.options}}" wx:for-item="opt">
           <view class="radio">
-            <radio value="{{opt.oindex}}" />{{opt.ocontent}}
+            <radio value="{{index}}" />{{opt}}
           </view>
         </label>
       </radio-group>
@@ -16,7 +16,7 @@
       <checkbox-group name="{{item.qindex}}">
         <label wx:for="{{item.options}}" wx:for-item="opt">
           <view class="checkbox">
-            <checkbox value="{{opt.oindex}}" />{{opt.ocontent}}
+            <checkbox value="{{index}}" />{{opt}}
           </view>
         </label>
       </checkbox-group>

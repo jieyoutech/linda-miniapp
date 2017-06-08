@@ -8,6 +8,6 @@
     <text class="user-motto">{{motto}}</text>
   </view>
   <view class="btn-area">
-    <navigator url="/pages/survey/survey" hover-class="navigator-hover">跳转到新页面</navigator>
+    <navigator url="/pages/wx-examples/form" hover-class="navigator-hover">跳转到新页面</navigator>
   </view>
 </view>

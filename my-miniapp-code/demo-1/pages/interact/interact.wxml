@@ -1,0 +1,35 @@
+<!--interact.wxml-->
+<!--<view class="">
+  <block wx:for="{{iconSize}}">
+    <icon type="success" size="{{item}}" />
+  </block>
+</view>-->
+
+<view class="">
+  <block wx:for="{{iconType}}">
+    <icon type="{{item}}" size="40" />
+  </block>
+</view>
+
+<!--<view class="group">
+  <block wx:for="{{iconColor}}">
+    <icon type="success" size="40" color="{{item}}" />
+  </block>
+</view>-->
+
+<view class="group">
+  <icon type="success" size="60" color="{{likeColor}}" />
+
+  <icon type="clear" size="60" color="{{unlikeColor}}" />
+</view>
+
+
+<view class="wrap">
+ <view class="top">
+  <canvas class="cir" style="width:212px; height:212px;" canvas-id="canvasArc">
+  </canvas>
+  
+  <view class="cc">中间</view>
+  
+ </view>
+</view>
