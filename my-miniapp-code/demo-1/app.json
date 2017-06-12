@@ -6,7 +6,9 @@
     "pages/survey/survey",
     "pages/wx-examples/form",
     "pages/survey/surveyResult",
-    "pages/interact/interact"
+    "pages/interact/interact",
+    "pages/video/video-test",
+    "pages/wx-examples/map"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -23,7 +25,7 @@
         "text": "Home"
       },
       {
-        "pagePath": "pages/interact/interact",
+        "pagePath": "pages/video/video-test",
         "iconPath": "images/events-icon.png",
         "selectedIconPath": "images/events-icon-2.png",
         "text": "Events"

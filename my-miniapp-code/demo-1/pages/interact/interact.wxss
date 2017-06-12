@@ -1,1 +1,12 @@
 /* interact.wxss */
+
+.ewi-vote {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items:center;
+  border-bottom: 1rpx solid #ccc;
+  margin: 10rpx;
+  padding: 10rpx;
+  padding-bottom: 30rpx;
+}
